@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - House
+  - TransparentFX
+  - Ignore Raycast
+  - Hats
+  - Water
+  - UI
   - 
   - 
   - 
@@ -40,8 +44,4 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Teleport

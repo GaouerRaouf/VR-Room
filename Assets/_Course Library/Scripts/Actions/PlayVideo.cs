@@ -54,7 +54,8 @@ public class PlayVideo : MonoBehaviour
 
     public void NextClip()
     {
-        index = ++index % videoClips.Count;
+        index = (index + 1) % videoClips.Count;
+        videoPlayer.clip = videoClips[index];
         Play();
     }
 
